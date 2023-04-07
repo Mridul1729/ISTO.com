@@ -1,0 +1,53 @@
+body {
+    font-style: oblique;
+    background-image: url("https://www.textures.com/system/gallery/photos/Landscapes/Skies%20Partial/19586/Skies0258_2_download600.jpg");
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 40px;
+  }
+  .card-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card-header h1 {
+    font-size: 36px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+  }
+  .form-group input:focus {
+    outline: none;
+  }
+  .form-submit {
+    text-align: center;
+  }
+  a{
+    color : white;
+    text-decoration: none;
+  }
